@@ -2,8 +2,8 @@
 	<a href="https://jacobem.com" target="_blank">
 		<img width="400px" src="https://jacobem.com/assets/media/JacobEM.png" alt="Yakowa">
 	</a>
-  # Ashlily CSS Library
 </p>
+# Ashlily CSS Library
 
 <code>Version: 3.3</code>
 
