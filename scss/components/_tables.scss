@@ -1,0 +1,45 @@
+// ---------------
+//   Tables
+// ---------------
+.overflowX {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    caption-side: top;
+    border-collapse: collapse;
+    color: var(--al-table-border);
+    --al-table-head: var(--al-gray);
+    --al-table-border: var(--al-dark-black);
+    --al-table-highlight: var(--al-super-light-gray);
+    --al-table-highlight-2: var(--al-gray);
+    @include br($br-1);
+}
+table.dark {
+    --al-table-head: var(--al-dark-black);
+    --al-table-border: var(--al-light-gray);
+    --al-table-highlight: var(--al-super-light-black);
+    --al-table-highlight-2: var(--al-light-black);
+}
+caption {
+    padding: 0.5rem 0;
+    text-align: center;
+    @include mark(var(--al-table-highlight));
+    @include brClear();
+    @include brTop($br-1);
+}
+th, td { text-align: start; padding: 0.5rem; }
+
+:is(thead, tbody, tfoot, tr, th, td) {
+    border: 0 solid inherit;
+}
+
+table > thead { vertical-align: bottom; }
+table > tbody { border-top: 1px solid var(--al-table-border); }
+
+thead > tr > :is(th, td) { background-color: var(--al-table-head); }
+
+tr:nth-child(odd) { background-color: var(--al-table-highlight); }
+tr:nth-child(even) { background-color: var(--al-table-highlight-2); }

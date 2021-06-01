@@ -1,0 +1,31 @@
+// ---------------
+//   Image Grid
+// ---------------
+/* Text labels over images */
+.al-img-text {
+	background-color: black;
+	color: #efefef;
+
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+
+	padding: 1px;
+}
+.al-img-text * { margin: 0 !important; }
+
+/* Image Grid */
+.al-ig-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-gap: 3px;
+}
+
+.al-ig-item { display: flex; border: 1px solid var(--theme-border); }
+.al-ig-item-hori { grid-column: span 2; }
+.al-ig-item-vert { grid-row: span 2; }
+
+.al-ig-img { max-width: 100%; max-height: 100%; }
+
+@media screen and (max-width: $breakpoint-mdsm) { .al-ig-container { grid-template-columns: auto auto auto auto; }}
+@media screen and (max-width: $breakpoint-xsm) { .al-ig-container { grid-template-columns: auto auto; }}

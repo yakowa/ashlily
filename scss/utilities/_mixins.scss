@@ -1,0 +1,27 @@
+// ---------------
+//   Mixins
+// ---------------
+@mixin mark($color) {
+    padding: 0 0.2rem;
+    background-color: $color;
+    border-radius: $br-1;
+}
+@mixin brClear() {
+    border-radius: 0;
+}
+@mixin brTop($br) {
+    border-top-left-radius: $br;
+    border-top-right-radius: $br;
+}
+@mixin brBottom($br) {
+    border-bottom-left-radius: $br;
+    border-bottom-right-radius: $br;
+}
+@mixin br($br) {
+    border-radius: $br;
+}
+
+
+// .box {
+//     @include transform(rotate(30deg));
+// }

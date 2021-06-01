@@ -1,0 +1,67 @@
+// ---------------
+//   Animations
+// ---------------
+.al-animation-fade-down { animation: al-fade-down 1s ease forwards; z-index: 1; }
+.al-animation-fade-up { animation: al-fade-up 1s ease forwards; z-index: 1; }
+.al-animation-side-down { animation: al-slide-down 1s ease forwards; z-index: 1; }
+.al-animation-side-up { animation: al-slide-up 1s ease forwards; z-index: 1; }
+
+// From 20% up to 0%, while fading in
+// @-webkit-keyframes snackbar-fadein {
+@-webkit-keyframes al-fade-down {
+    from { opacity: 0; transform: translateY(-20%); }
+    to { opacity: 1; transform: translateY(0%); }
+}
+@keyframes al-fade-down {
+    from { opacity: 0; transform: translateY(-20%); }
+    to { opacity: 1; transform: translateY(0%); }
+}
+// From 20% down to 0%, while fading in
+@-webkit-keyframes al-fade-up {
+    from { opacity: 0; transform: translateY(20%); }
+    to { opacity: 1; transform: translateY(0%); }
+}
+@keyframes al-fade-up {
+    from { opacity: 0; transform: translateY(20%); }
+    to { opacity: 1; transform: translateY(0%); }
+}
+
+
+// From 20% up to 0%
+@-webkit-keyframes al-slide-down {
+    from { transform: translateY(-20%); }
+    to { transform: translateY(0%); }
+}
+@keyframes al-slide-down {
+    from { transform: translateY(-20%); }
+    to { transform: translateY(0%); }
+}
+// From 20% down to 0%, while fading in
+@-webkit-keyframes al-slide-up {
+    from { transform: translateY(20%); }
+    to { transform: translateY(0%); }
+}
+@keyframes al-slide-up {
+    from { transform: translateY(20%); }
+    to { transform: translateY(0%); }
+}
+
+
+// From bottom to 30px up, while fading in
+@-webkit-keyframes snackbar-fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+}
+@keyframes snackbar-fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+}
+// From 30px up to bottom, while fading out
+@-webkit-keyframes snackbar-fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+}
+@keyframes snackbar-fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+}

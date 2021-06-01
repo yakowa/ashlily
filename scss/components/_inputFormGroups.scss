@@ -1,0 +1,37 @@
+// ---------------
+//   Input Form Groups
+// ---------------
+// 
+// Usage:
+// 
+// <div class="al-input-group">
+//     <label for="email class="al-input-group-label">Email</label>
+//     <input class="al-clean" type="email" name="email" placeholder="">
+// </div>
+// ---------------
+.al-input-group {
+	border-radius: 4px;
+    display: flex;
+
+    // Label element
+    .al-input-group-label {
+        background-color: var(--theme-bg-primary);
+        color: var(--theme-text-muted);
+        border: 1px solid var(--theme-border);
+        padding: 0.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+	    border-radius: 4px;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+
+    // Input element
+    input, .input {
+	    border-radius: 4px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}

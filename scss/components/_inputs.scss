@@ -1,0 +1,31 @@
+// ---------------
+//   Input Groups
+// ---------------
+@import 'inputHighlight';
+@import 'inputFormGroups';
+@import 'inputFloatingLabel';
+
+
+
+// Base override
+input, [type=submit], select, textarea {
+	padding: 0.4rem;
+    background-color: var(--theme-bg-floating);
+    color: var(--theme-text-normal);
+    border: 1px solid var(--theme-border);
+	border-radius: 4px;
+
+    &:disabled { color: var(--theme-text-muted); }
+    &::placeholder { color: var(--theme-text-muted); }
+    &:hover, &:focus { outline: none; }
+    &:focus { border-color: var(--theme-header-primary-alt); }
+
+    
+    &:valid { color: var(--theme-text-positive); }
+    &:invalid { color: var(--theme-text-negitive); }
+
+    &.al-clean {
+        &:valid { color: var(--theme-text-normal) !important; }
+        &:invalid { color: var(--theme-text-normal) !important; }
+    }
+}

@@ -1,0 +1,32 @@
+// ---------------
+//   Spacing
+// ---------------
+$loop:
+    "0" 0,
+    "1" $unit * .25rem,
+    "2" $unit * .5rem,
+    "3" $unit * 1rem,
+    "35" $unit * .75rem,
+    "4" $unit * 1.5rem,
+    "45" $unit * 2rem,
+    "50" $unit * 2.5rem,
+    "5" $unit * 3rem,
+    "auto" auto;
+
+
+@each $lp in $loop {
+    // Padding
+    .al-p-#{nth($lp, 1)} { padding: #{nth($lp, 2)} !important; }
+    .al-pt-#{nth($lp, 1)} { padding-top: #{nth($lp, 2)} !important; }
+    .al-pb-#{nth($lp, 1)} { padding-bottom: #{nth($lp, 2)} !important; }
+    .al-pl-#{nth($lp, 1)} { padding-left: #{nth($lp, 2)} !important; }
+    .al-pr-#{nth($lp, 1)} { padding-right: #{nth($lp, 2)} !important; }
+
+
+    // Padding
+    .al-m-#{nth($lp, 1)} { margin: #{nth($lp, 2)} !important; }
+    .al-mt-#{nth($lp, 1)} { margin-top: #{nth($lp, 2)} !important; }
+    .al-mb-#{nth($lp, 1)} { margin-bottom: #{nth($lp, 2)} !important; }
+    .al-ml-#{nth($lp, 1)} { margin-left: #{nth($lp, 2)} !important; }
+    .al-mr-#{nth($lp, 1)} { margin-right: #{nth($lp, 2)} !important; }
+}

@@ -1,0 +1,19 @@
+// ---------------
+//   Sections
+// ---------------
+:is(header, footer, .header, .footer) {
+    background-color: var(--theme-bg-tertiary);
+    color: var(--theme-text-em);
+    padding: 0.5rem 2rem;
+}
+:is(header, footer, .header, .footer).al-clean { padding: 0; }
+
+
+:is(section, main, content, .section, .main, .content) {
+    padding: 0.5rem;
+    width: auto;
+    margin: 1rem auto;
+    background-color: var(--theme-bg-secondary);
+    color: var(--theme-text-normal);
+}
+:is(section, main, content, .section, .main, .content).al-clean { margin: 0; }
