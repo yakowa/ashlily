@@ -53,7 +53,7 @@
 
 
 @each $colour in $colours {
-    :is(button, .al-btn).btn-#{nth($colour, 1)} { @include btn(var(--theme-text-normal), #{nth($colour, 2)}, #{nth($colour, 2)} + 83); }
+    :is(button, .al-btn).al-btn-#{nth($colour, 1)} { @include btn(var(--theme-text-normal), #{nth($colour, 2)}, #{nth($colour, 2)} + 83); }
 
-    :is(button, .al-btn).btn-outline-#{nth($colour, 1)} { @include btnOutline(var(--theme-text-normal), #{nth($colour, 2)}, #{nth($colour, 2)} + 83); }
+    :is(button, .al-btn).al-btn-outline-#{nth($colour, 1)} { @include btnOutline(var(--theme-text-normal), #{nth($colour, 2)}, #{nth($colour, 2)} + 83); }
 }
