@@ -19,3 +19,19 @@
     .al-d-#{nth($breakpoint, 1)}-initial { display: initial !important; }
     .al-d-#{nth($breakpoint, 1)}-unset { display: unset !important; }
 }
+
+.al-d-block { display: block !important; }
+.al-d-flex { display: flex !important; }
+.al-d-flexbox { display: flexbox !important; }
+.al-d-grid { display: grid !important; }
+.al-d-inline { display: inline !important; }
+.al-d-inline-block { display: inline-block !important; }
+.al-d-inline-flex { display: inline-flex !important; }
+.al-d-inline-flexbox { display: inline-flexbox !important; }
+.al-d-inline-table { display: inline-table !important; }
+.al-d-none { display: none !important; }
+.al-d-list-item { display: list-item !important; }
+.al-d-table { display: table !important; }
+.al-d-inherit { display: inherit !important; }
+.al-d-initial { display: initial !important; }
+.al-d-unset { display: unset !important; }
