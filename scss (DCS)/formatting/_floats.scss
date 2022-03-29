@@ -1,0 +1,39 @@
+// ---------------
+//   Floats
+// ---------------
+.al-float-left { float: left; }
+.al-float-right { float: right; }
+
+
+@media (min-width: $breakpoint-xsm) {
+    .al-float-xsm-left { float: left; }
+    .al-float-xsm-right { float: right; }
+}
+@media (min-width: $breakpoint-sm) {
+    .al-float-sm-left { float: left; }
+    .al-float-sm-right { float: right; }
+}
+@media (min-width: $breakpoint-mdsm) {
+    .al-float-mdsm-left { float: left; }
+    .al-float-mdsm-right { float: right; }
+}
+@media (min-width: $breakpoint-md) {
+    .al-float-md-left { float: left; }
+    .al-float-md-right { float: right; }
+}
+@media (min-width: $breakpoint-lg) {
+    .al-float-lg-left { float: left; }
+    .al-float-lg-right { float: right; }
+}
+@media (min-width: $breakpoint-xl) {
+    .al-float-xl-left { float: left; }
+    .al-float-xl-right { float: right; }
+}
+@media (min-width: $breakpoint-xxl) {
+    .al-float-xxl-left { float: left; }
+    .al-float-xxl-right { float: right; }
+}
+@media (min-width: $breakpoint-xxxl) {
+    .al-float-xxxl-left { float: left; }
+    .al-float-xxxl-right { float: right; }
+}

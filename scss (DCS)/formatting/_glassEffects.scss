@@ -1,0 +1,17 @@
+// ---------------
+//   Glass Effects
+// ---------------
+.al-glass {
+    backdrop-filter: blur(2rem);
+}
+
+.al-circle {
+    background: var(--theme-background-tertiary);
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+.al-circle-1 { top: 5%; right: 15%; }
+.al-circle-2 { bottom: 5%; left: 10%; }

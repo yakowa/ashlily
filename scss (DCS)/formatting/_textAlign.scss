@@ -1,0 +1,48 @@
+// ---------------
+//   Text Align
+// ---------------
+.al-text-left { text-align: left; }
+.al-text-center { text-align: center; }
+.al-text-right { text-align: right; }
+
+
+@media (min-width: $breakpoint-xsm) {
+    .al-text-xsm-left { text-align: left; }
+    .al-text-xsm-center { text-align: center; }
+    .al-text-xsm-right { text-align: right; }
+}
+@media (min-width: $breakpoint-sm) {
+    .al-text-sm-left { text-align: left; }
+    .al-text-sm-center { text-align: center; }
+    .al-text-sm-right { text-align: right; }
+}
+@media (min-width: $breakpoint-mdsm) {
+    .al-text-mdsm-left { text-align: left; }
+    .al-text-mdsm-center { text-align: center; }
+    .al-text-mdsm-right { text-align: right; }
+}
+@media (min-width: $breakpoint-md) {
+    .al-text-md-left { text-align: left; }
+    .al-text-md-center { text-align: center; }
+    .al-text-md-right { text-align: right; }
+}
+@media (min-width: $breakpoint-lg) {
+    .al-text-lg-left { text-align: left; }
+    .al-text-lg-center { text-align: center; }
+    .al-text-lg-right { text-align: right; }
+}
+@media (min-width: $breakpoint-xl) {
+    .al-text-xl-left { text-align: left; }
+    .al-text-xl-center { text-align: center; }
+    .al-text-xl-right { text-align: right; }
+}
+@media (min-width: $breakpoint-xxl) {
+    .al-text-xxl-left { text-align: left; }
+    .al-text-xxl-center { text-align: center; }
+    .al-text-xxl-right { text-align: right; }
+}
+@media (min-width: $breakpoint-xxxl) {
+    .al-text-xxxl-left { text-align: left; }
+    .al-text-xxxl-center { text-align: center; }
+    .al-text-xxxl-right { text-align: right; }
+}

@@ -1,0 +1,18 @@
+// ---------------
+//   Vertical Borders
+// ---------------
+// 
+// Usage:
+// 
+// <div class="al-vr-1"></div>
+// ---------------
+.al-vr-1 {
+    border-left: 4px solid var(--theme-border);
+    content: "";
+    height: 2.5rem;
+}
+.al-vr-2 {
+    border-left: 4px solid var(--theme-border);
+    content: "";
+    height: 3.5rem;
+}

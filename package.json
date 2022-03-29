@@ -1,0 +1,19 @@
+{
+  "name": "ashlily",
+  "version": "3.14.9",
+  "description": "Ashlily is a CSS library with contains a load of different commonly used premade-elements (accordion, modals, tree-views, buttons, etc) as well as lots of helpful utility classes (display flex, image grid, positioning, overflows, etc).",
+  "main": "css/ashlily.css",
+  "scripts": {
+    "build": "sass scss (DCS)/ashlily.scss:css/ashlily.css",
+    "watch": "sass scss (DCS)/ashlily.scss:css/ashlily.css --watch"
+  },
+  "keywords": [
+    "CSS",
+    "SCSS",
+    "Library",
+    "Components",
+    "Styles"
+  ],
+  "author": "JacobEM.com",
+  "license": "CC-BY-SA-4.0"
+}

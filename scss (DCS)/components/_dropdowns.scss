@@ -1,0 +1,32 @@
+// ---------------
+//   Dropdowns
+// ---------------
+.al-dropdown-menu {
+    display: none;
+}
+
+.al-dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.al-dropdown-divider {
+    margin: .5rem 0;
+    overflow: hidden;
+    background: #717171;
+    height: 1px;
+}
+
+.al-dropdown-menu {
+    background-color: var(--theme-background-tertiary);
+    position: absolute;
+    box-shadow: $bxs-1;
+    padding: 1rem;
+    z-index: 1000;
+}

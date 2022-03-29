@@ -1,0 +1,25 @@
+// ---------------
+//   Sections
+// ---------------
+:is(header, footer, .al-header, .al-footer) {
+    background-color: var(--theme-background-secondary);
+    color: var(--theme-text-em);
+    padding: 0.5rem 2rem;
+}
+:is(header, footer, .al-header, .al-footer).al-clean { padding: 0; }
+
+
+:is(content, .al-section, .al-main, .al-content) {
+    padding: 0.5rem;
+    width: auto;
+    margin: 1rem auto;
+    background-color: var(--theme-background-secondary);
+    color: var(--theme-text-normal);
+}
+
+:is(section, main, content, .al-section, .al-main, .al-content).al-clean {
+    margin: 0;
+    background: inherit;
+    padding: 0;
+    width: auto;
+}

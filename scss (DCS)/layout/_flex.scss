@@ -1,0 +1,541 @@
+// ---------------
+//   Flex
+// ---------------
+.al-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.al-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.al-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.al-flex-column-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.al-flex-row-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.al-flex-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.al-flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.al-flex-column-reverse-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.al-flex-row-reverse-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+
+.al-align-items-center { align-items: center; }
+.al-align-items-start { align-items: flex-start; }
+.al-align-items-end { align-items: flex-end; }
+.al-align-items-stretch { align-items: stretch; }
+
+.al-justify-content-center { justify-content: center; }
+.al-justify-content-end { justify-content: flex-end; }
+.al-justify-content-start { justify-content: flex-start; }
+.al-justify-content-around { justify-content: space-around; }
+.al-justify-content-between { justify-content: space-between; }
+.al-justify-content-evenly { justify-content: space-evenly; }
+
+
+
+
+@media (min-width: $breakpoint-xsm) {
+    .al-flex-xsm-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .al-flex-xsm-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .al-flex-xsm-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .al-flex-column-xsm-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .al-flex-row-xsm-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+        
+    .al-flex-column-xsm-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .al-flex-row-xsm-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .al-flex-column-reverse-xsm-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-flex-row-reverse-xsm-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-align-items-xsm-center { align-items: center; }
+    .al-align-items-xsm-start { align-items: flex-start; }
+    .al-align-items-xsm-end { align-items: flex-end; }
+    .al-align-items-xsm-stretch { align-items: stretch; }
+
+    .al-justify-content-xsm-center { justify-content: center; }
+    .al-justify-content-xsm-end { justify-content: flex-end; }
+    .al-justify-content-xsm-start { justify-content: flex-start; }
+    .al-justify-content-xsm-around { justify-content: space-around; }
+    .al-justify-content-xsm-between { justify-content: space-between; }
+    .al-justify-content-xsm-evenly { justify-content: space-evenly; }
+}
+@media (min-width: $breakpoint-sm) {
+    .al-flex-sm-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .al-flex-sm-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .al-flex-sm-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .al-flex-column-sm-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .al-flex-row-sm-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .al-flex-column-sm-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .al-flex-row-sm-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .al-flex-column-reverse-sm-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-flex-row-reverse-sm-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    
+    .al-align-items-sm-center { align-items: center; }
+    .al-align-items-sm-start { align-items: flex-start; }
+    .al-align-items-sm-end { align-items: flex-end; }
+    .al-align-items-sm-stretch { align-items: stretch; }
+    
+    .al-justify-content-sm-center { justify-content: center; }
+    .al-justify-content-sm-end { justify-content: flex-end; }
+    .al-justify-content-sm-start { justify-content: flex-start; }
+    .al-justify-content-sm-around { justify-content: space-around; }
+    .al-justify-content-sm-between { justify-content: space-between; }
+    .al-justify-content-sm-evenly { justify-content: space-evenly; }
+}
+@media (min-width: $breakpoint-mdsm) {
+    .al-flex-mdsm-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .al-flex-mdsm-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .al-flex-mdsm-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .al-flex-column-mdsm-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .al-flex-row-mdsm-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .al-flex-column-mdsm-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .al-flex-row-mdsm-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .al-flex-column-reverse-mdsm-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-flex-row-reverse-mdsm-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    
+    .al-align-items-mdsm-center { align-items: center; }
+    .al-align-items-mdsm-start { align-items: flex-start; }
+    .al-align-items-mdsm-end { align-items: flex-end; }
+    .al-align-items-mdsm-stretch { align-items: stretch; }
+    
+    .al-justify-content-mdsm-center { justify-content: center; }
+    .al-justify-content-mdsm-end { justify-content: flex-end; }
+    .al-justify-content-mdsm-start { justify-content: flex-start; }
+    .al-justify-content-mdsm-around { justify-content: space-around; }
+    .al-justify-content-mdsm-between { justify-content: space-between; }
+    .al-justify-content-mdsm-evenly { justify-content: space-evenly; }
+}
+@media (min-width: $breakpoint-md) {
+    .al-flex-md-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .al-flex-md-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .al-flex-md-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .al-flex-column-md-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .al-flex-row-md-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .al-flex-column-md-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .al-flex-row-md-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .al-flex-column-reverse-md-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-flex-row-reverse-md-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    
+    .al-align-items-md-center { align-items: center; }
+    .al-align-items-md-start { align-items: flex-start; }
+    .al-align-items-md-end { align-items: flex-end; }
+    .al-align-items-md-stretch { align-items: stretch; }
+    
+    .al-justify-content-md-center { justify-content: center; }
+    .al-justify-content-md-end { justify-content: flex-end; }
+    .al-justify-content-md-start { justify-content: flex-start; }
+    .al-justify-content-md-around { justify-content: space-around; }
+    .al-justify-content-md-between { justify-content: space-between; }
+    .al-justify-content-md-evenly { justify-content: space-evenly; }
+}
+@media (min-width: $breakpoint-lg) {
+    .al-flex-lg-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .al-flex-lg-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .al-flex-lg-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .al-flex-column-lg-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .al-flex-row-lg-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .al-flex-column-lg-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .al-flex-row-lg-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .al-flex-column-reverse-lg-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-flex-row-reverse-lg-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    
+    .al-align-items-lg-center { align-items: center; }
+    .al-align-items-lg-start { align-items: flex-start; }
+    .al-align-items-lg-end { align-items: flex-end; }
+    .al-align-items-lg-stretch { align-items: stretch; }
+    
+    .al-justify-content-lg-center { justify-content: center; }
+    .al-justify-content-lg-end { justify-content: flex-end; }
+    .al-justify-content-lg-start { justify-content: flex-start; }
+    .al-justify-content-lg-around { justify-content: space-around; }
+    .al-justify-content-lg-between { justify-content: space-between; }
+    .al-justify-content-lg-evenly { justify-content: space-evenly; }
+}
+@media (min-width: $breakpoint-xl) {
+    .al-flex-xl-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .al-flex-xl-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .al-flex-xl-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .al-flex-column-xl-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .al-flex-row-xl-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .al-flex-column-xl-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .al-flex-row-xl-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .al-flex-column-reverse-xl-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-flex-row-reverse-xl-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    
+    .al-align-items-xl-center { align-items: center; }
+    .al-align-items-xl-start { align-items: flex-start; }
+    .al-align-items-xl-end { align-items: flex-end; }
+    .al-align-items-xl-stretch { align-items: stretch; }
+    
+    .al-justify-content-xl-center { justify-content: center; }
+    .al-justify-content-xl-end { justify-content: flex-end; }
+    .al-justify-content-xl-start { justify-content: flex-start; }
+    .al-justify-content-xl-around { justify-content: space-around; }
+    .al-justify-content-xl-between { justify-content: space-between; }
+    .al-justify-content-xl-evenly { justify-content: space-evenly; }
+}
+@media (min-width: $breakpoint-xxl) {
+    .al-flex-xxl-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .al-flex-xxl-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .al-flex-xxl-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .al-flex-column-xxl-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .al-flex-row-xxl-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .al-flex-column-xxl-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .al-flex-row-xxl-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .al-flex-column-reverse-xxl-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-flex-row-reverse-xxl-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    
+    .al-align-items-xxl-center { align-items: center; }
+    .al-align-items-xxl-start { align-items: flex-start; }
+    .al-align-items-xxl-end { align-items: flex-end; }
+    .al-align-items-xxl-stretch { align-items: stretch; }
+    
+    .al-justify-content-xxl-center { justify-content: center; }
+    .al-justify-content-xxl-end { justify-content: flex-end; }
+    .al-justify-content-xxl-start { justify-content: flex-start; }
+    .al-justify-content-xxl-around { justify-content: space-around; }
+    .al-justify-content-xxl-between { justify-content: space-between; }
+    .al-justify-content-xxl-evenly { justify-content: space-evenly; }
+}
+@media (min-width: $breakpoint-xxxl) {
+    .al-flex-xxxl-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .al-flex-xxxl-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .al-flex-xxxl-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .al-flex-column-xxxl-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .al-flex-row-xxxl-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .al-flex-column-xxxl-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .al-flex-row-xxxl-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .al-flex-column-reverse-xxxl-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .al-flex-row-reverse-xxxl-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    
+    .al-align-items-xxxl-center { align-items: center; }
+    .al-align-items-xxxl-start { align-items: flex-start; }
+    .al-align-items-xxxl-end { align-items: flex-end; }
+    .al-align-items-xxxl-stretch { align-items: stretch; }
+    
+    .al-justify-content-xxxl-center { justify-content: center; }
+    .al-justify-content-xxxl-end { justify-content: flex-end; }
+    .al-justify-content-xxxl-start { justify-content: flex-start; }
+    .al-justify-content-xxxl-around { justify-content: space-around; }
+    .al-justify-content-xxxl-between { justify-content: space-between; }
+    .al-justify-content-xxxl-evenly { justify-content: space-evenly; }
+}

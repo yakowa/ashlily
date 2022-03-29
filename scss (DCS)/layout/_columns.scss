@@ -1,0 +1,80 @@
+// ---------------
+//   Columns
+// ---------------
+
+.al-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+$columns: 12;
+// Unit is acquired by dividing 100 by 12
+$col-unit: 8.33%;
+
+
+@for $i from 1 through $columns {
+    .al-col-#{$i} {
+        @include row($col-unit * $i);
+    }
+}
+
+
+
+
+@media (min-width: $breakpoint-xsm) {
+    @for $i from 1 through $columns {
+        .al-col-xsm-#{$i} {
+            @include rowImportant($col-unit * $i);
+        }
+    }
+}
+@media (min-width: $breakpoint-sm) {
+    @for $i from 1 through $columns {
+        .al-col-sm-#{$i} {
+            @include rowImportant($col-unit * $i);
+        }
+    }
+}
+@media (min-width: $breakpoint-mdsm) {
+    @for $i from 1 through $columns {
+        .al-col-mdsm-#{$i} {
+            @include rowImportant($col-unit * $i);
+        }
+    }
+}
+@media (min-width: $breakpoint-md) {
+    @for $i from 1 through $columns {
+        .al-col-md-#{$i} {
+            @include rowImportant($col-unit * $i);
+        }
+    }
+}
+@media (min-width: $breakpoint-lg) {
+    @for $i from 1 through $columns {
+        .al-col-lg-#{$i} {
+            @include rowImportant($col-unit * $i);
+        }
+    }
+}
+@media (min-width: $breakpoint-xl) {
+    @for $i from 1 through $columns {
+        .al-col-xl-#{$i} {
+            @include rowImportant($col-unit * $i);
+        }
+    }
+}
+@media (min-width: $breakpoint-xxl) {
+    @for $i from 1 through $columns {
+        .al-col-xxl-#{$i} {
+            @include rowImportant($col-unit * $i);
+        }
+    }
+}
+@media (min-width: $breakpoint-xxxl) {
+    @for $i from 1 through $columns {
+        .al-col-xxxl-#{$i} {
+            @include rowImportant($col-unit * $i);
+        }
+    }
+}
